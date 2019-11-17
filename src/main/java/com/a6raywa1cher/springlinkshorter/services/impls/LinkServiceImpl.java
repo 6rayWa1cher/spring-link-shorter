@@ -5,6 +5,8 @@ import com.a6raywa1cher.springlinkshorter.repositories.LinkRepository;
 import com.a6raywa1cher.springlinkshorter.services.exception.NameAlreadyTakenException;
 import com.a6raywa1cher.springlinkshorter.services.interfaces.LinkService;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.data.domain.Page;
+import org.springframework.data.domain.Pageable;
 import org.springframework.stereotype.Service;
 
 import java.util.Optional;
@@ -32,5 +34,10 @@ public class LinkServiceImpl implements LinkService {
 		link.setReq(name);
 		link.setForwardingUrl(forwardTo);
 		return linkRepository.save(link);
+	}
+
+	@Override
+	public Page<Link> getPage(Pageable pageable) {
+		return linkRepository.findAll(pageable);
 	}
 }
