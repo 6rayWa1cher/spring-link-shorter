@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>Link shorter</title>
+</head>
+<body>
+<h1>Short your link!</h1>
+<form action="#" method="post" th:action="@{/upload_link}" th:object="${req}">
+    <p><label for="url">Link:</label><input id="url" th:field="*{forwardTo}" type="text"></p>
+    <p><label for="name">Desired name:</label><input id="name" th:field="*{name}" type="text"></p>
+    <p><input type="submit" value="Submit"/></p>
+</form>
+</body>
+</html>

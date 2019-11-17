@@ -1,7 +1,9 @@
-package com.a6raywa1cher.springlinkshorter.services;
+package com.a6raywa1cher.springlinkshorter.services.impls;
 
 import com.a6raywa1cher.springlinkshorter.models.Link;
 import com.a6raywa1cher.springlinkshorter.repositories.LinkRepository;
+import com.a6raywa1cher.springlinkshorter.services.exception.NameAlreadyTakenException;
+import com.a6raywa1cher.springlinkshorter.services.interfaces.LinkService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
@@ -22,7 +24,13 @@ public class LinkServiceImpl implements LinkService {
 	}
 
 	@Override
-	public Link save(Link link) {
+	public Link uploadLink(String name, String forwardTo) {
+		Link link = new Link();
+		if (linkRepository.getByReq(name).isPresent()) {
+			throw new NameAlreadyTakenException();
+		}
+		link.setReq(name);
+		link.setForwardingUrl(forwardTo);
 		return linkRepository.save(link);
 	}
 }
