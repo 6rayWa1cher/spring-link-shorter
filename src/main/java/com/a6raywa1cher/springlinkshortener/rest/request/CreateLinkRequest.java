@@ -1,4 +1,4 @@
-package com.a6raywa1cher.springlinkshorter.rest.request;
+package com.a6raywa1cher.springlinkshortener.rest.request;
 
 import lombok.Data;
 import org.hibernate.validator.constraints.URL;

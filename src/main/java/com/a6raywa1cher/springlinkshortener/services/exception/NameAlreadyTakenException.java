@@ -1,4 +1,4 @@
-package com.a6raywa1cher.springlinkshorter.services.exception;
+package com.a6raywa1cher.springlinkshortener.services.exception;
 
 import org.springframework.http.HttpStatus;
 import org.springframework.web.bind.annotation.ResponseStatus;

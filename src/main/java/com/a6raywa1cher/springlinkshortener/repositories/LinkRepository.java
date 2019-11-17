@@ -1,6 +1,6 @@
-package com.a6raywa1cher.springlinkshorter.repositories;
+package com.a6raywa1cher.springlinkshortener.repositories;
 
-import com.a6raywa1cher.springlinkshorter.models.Link;
+import com.a6raywa1cher.springlinkshortener.models.Link;
 import org.springframework.data.repository.PagingAndSortingRepository;
 import org.springframework.stereotype.Repository;
 

@@ -1,6 +1,6 @@
-package com.a6raywa1cher.springlinkshorter.services.interfaces;
+package com.a6raywa1cher.springlinkshortener.services.interfaces;
 
-import com.a6raywa1cher.springlinkshorter.models.Link;
+import com.a6raywa1cher.springlinkshortener.models.Link;
 import org.springframework.data.domain.Page;
 import org.springframework.data.domain.Pageable;
 

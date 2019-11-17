@@ -9,9 +9,9 @@
         <relativePath/> <!-- lookup parent from repository -->
     </parent>
     <groupId>com.a6raywa1cher</groupId>
-    <artifactId>spring-link-shorter</artifactId>
+    <artifactId>spring-link-shortener</artifactId>
     <version>0.0.1-SNAPSHOT</version>
-    <name>spring-link-shorter</name>
+    <name>spring-link-shortener</name>
     <description>Demo project for Spring Boot</description>
 
     <properties>

@@ -1,4 +1,4 @@
-package com.a6raywa1cher.springlinkshorter.models;
+package com.a6raywa1cher.springlinkshortener.models;
 
 import lombok.Data;
 

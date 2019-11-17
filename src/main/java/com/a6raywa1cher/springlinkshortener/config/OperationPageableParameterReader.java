@@ -1,4 +1,4 @@
-package com.a6raywa1cher.springlinkshorter.config;
+package com.a6raywa1cher.springlinkshortener.config;
 
 import com.fasterxml.classmate.ResolvedType;
 import com.fasterxml.classmate.TypeResolver;

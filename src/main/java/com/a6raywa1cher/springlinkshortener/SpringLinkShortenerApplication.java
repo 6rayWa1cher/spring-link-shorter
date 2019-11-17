@@ -1,13 +1,13 @@
-package com.a6raywa1cher.springlinkshorter;
+package com.a6raywa1cher.springlinkshortener;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class SpringLinkShorterApplication {
+public class SpringLinkShortenerApplication {
 
 	public static void main(String[] args) {
-		SpringApplication.run(SpringLinkShorterApplication.class, args);
+		SpringApplication.run(SpringLinkShortenerApplication.class, args);
 	}
 
 }

@@ -1,9 +1,9 @@
-package com.a6raywa1cher.springlinkshorter.services.impls;
+package com.a6raywa1cher.springlinkshortener.services.impls;
 
-import com.a6raywa1cher.springlinkshorter.models.Link;
-import com.a6raywa1cher.springlinkshorter.repositories.LinkRepository;
-import com.a6raywa1cher.springlinkshorter.services.exception.NameAlreadyTakenException;
-import com.a6raywa1cher.springlinkshorter.services.interfaces.LinkService;
+import com.a6raywa1cher.springlinkshortener.models.Link;
+import com.a6raywa1cher.springlinkshortener.repositories.LinkRepository;
+import com.a6raywa1cher.springlinkshortener.services.exception.NameAlreadyTakenException;
+import com.a6raywa1cher.springlinkshortener.services.interfaces.LinkService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.data.domain.Page;
 import org.springframework.data.domain.Pageable;

@@ -1,8 +1,8 @@
-package com.a6raywa1cher.springlinkshorter.rest;
+package com.a6raywa1cher.springlinkshortener.rest;
 
-import com.a6raywa1cher.springlinkshorter.models.Link;
-import com.a6raywa1cher.springlinkshorter.rest.request.CreateLinkRequest;
-import com.a6raywa1cher.springlinkshorter.services.interfaces.LinkService;
+import com.a6raywa1cher.springlinkshortener.models.Link;
+import com.a6raywa1cher.springlinkshortener.rest.request.CreateLinkRequest;
+import com.a6raywa1cher.springlinkshortener.services.interfaces.LinkService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.data.domain.Page;
