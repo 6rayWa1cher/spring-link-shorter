@@ -1,2 +1,2 @@
-# spring-link-shorter
-Example of simple link shorter. Build on Spring.
+# spring-link-shortener
+Example of simple link shortener. Build on Spring.
